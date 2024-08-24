@@ -1,0 +1,108 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.signin-bar {
+    background-color: #333;
+    color: #e0e0e0;
+    padding: 10px;
+    text-align: right;
+}
+
+.signin-bar a {
+    color: #e0e0e0;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #1e1e1e;
+    padding-top: 20px;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 0;
+}
+
+.sidebar nav ul li a {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar nav ul li a i {
+    margin-right: 10px;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #333;
+}
+
+.container {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.chart-container {
+    width: 45%;
+    margin: 0 auto;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Chart Styles */
+canvas {
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 200px);
+    margin-left: 200px;
+}
